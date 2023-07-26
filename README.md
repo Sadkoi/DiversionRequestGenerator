@@ -39,7 +39,7 @@ git clone https://github.com/Sadkoi/DiversionRequestGenerator.git
 4. Modify the user input parameters in the script as needed.
 5. Run the script using
 ```bash
-python AutoDiversionRequestGenerator
+python AutoDiversionRequestGenerator.py
 ```
 7. The generated diversion requests will be saved in the Requests directory.
 

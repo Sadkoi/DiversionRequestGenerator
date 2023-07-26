@@ -30,11 +30,18 @@ STARTING_3C = 1
 - OpenPyXL library `pip install openpyxl`
 
 ## Usage
-1. Place the input data in the Excel file `Planned_Work.xlsx` following the required format.
-2. Place the diversion request template in the Excel file `DivRequest.xlsx` following the required format.
-3. Modify the user input parameters in the script as needed.
-4. Run the script.
-5. The generated diversion requests will be saved in the Requests directory.
+1. Clone the repository using git
+```bash
+git clone https://github.com/Sadkoi/DiversionRequestGenerator.git
+```
+2. Place the input data in the Excel file `Planned_Work.xlsx` following the required format.
+3. Place the diversion request template in the Excel file `DivRequest.xlsx` following the required format.
+4. Modify the user input parameters in the script as needed.
+5. Run the script using
+```bash
+python AutoDiversionRequestGenerator
+```
+7. The generated diversion requests will be saved in the Requests directory.
 
 ## Data Format
 The script expects specific column headers in the Excel file. These headers include "Week", "Diversion", "Section", "Start Date", "End Date", and "Diversion Limits." The script will automatically find and assign column coordinates for these headers.

@@ -1,4 +1,4 @@
-# TC Electric - Diversion Request Generator
+# Diversion Request Generator
 
 ## Description
 This script is designed to automatically generate diversion requests for the implementation of Communication-Based Train Control (CBTC) on the Crosstown Line (G Line) for New York City Transit. This program was written during my time with TC Electric while working on contract S-48012. The script reads data from an Excel spreadsheet and uses a template to generate diversion requests based on specific criteria.
@@ -53,3 +53,15 @@ The script expects specific column headers in the Excel file. These headers incl
 ## Future Development & Limitations
 - The script will be updated to be able to fill out multiple different versions of spreadsheet templates
 - Currently, the openpyxl library does not support the copying of shapes and other graphics
+
+## License
+
+This project is provided under the [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.en.html), allowing you to freely use, modify, and distribute the code. However, please note that it comes with no warranty, and you should use it at your own risk.
+
+## Contributions
+
+Contributions to this project are welcome! If you find any issues or have suggestions for improvements, feel free to submit a pull request.
+
+## Contact
+
+For any questions or inquiries related to this project, you can reach me at [Moinak.Das@Stonybrook.com](mailto:Moinak.Das@Stonybrook.com).
